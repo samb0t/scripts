@@ -12,6 +12,6 @@ $(function () {
         var width = $(window).width();
         $(".window").css({width: width-100, left: '50px'}); 
         $(".window-main-col").css({width: width-500});
-    }, 20);
+    }, 500);
 });
 
