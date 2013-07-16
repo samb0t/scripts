@@ -3,6 +3,7 @@
 // @version    0.1
 // @description  this is awful, but wanted to test a commit
 // @match      https://trello.com/card/*
+// @match      https://trello.com/c/*
 // @copyright  2013+, sambot
 // @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
