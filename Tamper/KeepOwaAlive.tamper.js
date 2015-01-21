@@ -23,5 +23,5 @@ function resetTimeout() {
 }
 
 function setReloadTimeout() {
-	 timeoutHandle = window.setTimeout(function() { location.reload(); }, 120000);  
+	 timeoutHandle = window.setTimeout(function() { location.reload(); }, 10 * 1000 * 60);
 }
