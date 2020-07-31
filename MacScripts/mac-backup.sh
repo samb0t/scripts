@@ -41,5 +41,6 @@ done
 
 if [ -f "$error_file" ] && [ ! -s "$error_file" ]
 then
+    echo "No errors; removing error file"
     rm "$error_file"
 fi
