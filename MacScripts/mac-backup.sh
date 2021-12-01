@@ -18,7 +18,8 @@ src_paths=(
     "$HOME/./Library/Audio/"
     "$HOME/./Library/Application Support/Ableton/"
     "$HOME/./Library/Application Support/Cycling '74/"
-    "$HOME/./Library/Application Support/Pioneer"
+    "$HOME/./Library/Application Support/Pioneer/"
+    "$HOME/./Library/Application Support/Valhalla DSP, LLC/"
 
     "/Library/Audio/"
     "/Library/Application Support/Native Instruments/"
