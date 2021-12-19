@@ -21,6 +21,8 @@ src_paths=(
     "$HOME/./Library/Application Support/Pioneer/"
     "$HOME/./Library/Application Support/Valhalla DSP, LLC/"
 
+    "/Users/Shared/"
+
     "/Library/Audio/"
     "/Library/Application Support/Native Instruments/"
 )
@@ -32,7 +34,7 @@ for i in "${src_paths[@]}"
 do
     dest=$root_dest
 
-    if  [[ $i == /Users* ]] ;
+    if  [[ $i == /Users* ]] && [[ $i != /Users/Shared* ]] ;
     then
         dest+="User/"
     fi
