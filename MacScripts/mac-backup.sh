@@ -27,7 +27,7 @@ src_paths=(
     "/Library/Application Support/Native Instruments/"
 )
 
-root_dest="/Volumes/media-backup/mac-backup/"
+root_dest="/Volumes/nas-mac-backup/"
 error_file="$HOME/Desktop/$(date +%Y-%m-%d.txt)"
 
 for i in "${src_paths[@]}"
